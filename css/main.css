@@ -156,6 +156,10 @@ nav div ul a{
     animation-timing-function: ease-in;
     
 }
+.navbar {
+    background-color: rgb(255, 145, 0) !important;
+    
+}
 @keyframes saltar{
         0%{
             transform: translateY(+500px);
@@ -232,8 +236,8 @@ nav div ul a{
         
     }
     
-    }
-
+    
+}
     
 
    
