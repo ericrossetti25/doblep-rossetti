@@ -56,7 +56,7 @@ nav a:hover{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-bottom: 70x;
+    margin-bottom: 70px;
     }
 h2{
     color: aliceblue;
@@ -80,11 +80,11 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-bottom: 60px;
 }
 #contacto{
-    color: rgb(126, 129, 131);
+    color: hsla(244, 94%, 20%, 0.815);
     text-align: center;
     font-size: 25px;
     list-style-type: none;
@@ -118,13 +118,13 @@ nav div ul a{
     flex-direction: row-reverse;
 }
 .insta{
-    height: 60px;
+    height: 50px;
 }
 .face{
-    height: 60px;
+    height: 50px;
 }
 .whastapp{
-    height: 60px;
+    height: 50px;
 }
 .local{
    margin: auto; 
@@ -141,6 +141,9 @@ nav div ul a{
     margin-top: 40px;
     font-size: 20px;
 }
+.videos{
+    margin-top: 40px;
+}
 #home-footer {
     color: aliceblue;
     font-size: 20px;
@@ -152,7 +155,7 @@ nav div ul a{
     transform: translateX(-100px);
     animation-name: saltar;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
     animation-timing-function: ease-in;
     
 }
@@ -160,6 +163,7 @@ nav div ul a{
     background-color: rgb(255, 145, 0) !important;
     
 }
+
 @keyframes saltar{
         0%{
             transform: translateY(+500px);
@@ -173,7 +177,7 @@ nav div ul a{
     }
 @media screen and (max-width: 425px) {
     body{
-        /*margin: 0px;*/
+        margin: 0px;
     }
 
     #encabezado-home{
@@ -207,7 +211,7 @@ nav div ul a{
         flex-direction: wrap;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-bottom: 70x;
+        margin-bottom: 50px;
         }
     .local{
         margin: auto; 
@@ -229,8 +233,7 @@ nav div ul a{
     }
     iframe{
         display: block;
-        margin left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 300px;
         height: 220px;
         
