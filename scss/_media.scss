@@ -1,0 +1,68 @@
+@media screen and (max-width: 425px) {
+    body{
+        margin: 0px;
+    }
+    #encabezado-home{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    #navegador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .insta{
+        height: 50px;
+    }
+    .face{
+        height: 50px;
+    }
+    .whastapp{
+        height: 50px;
+    }
+    #iframe-inicio{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        max-height: fit-content;
+        max-width:fit-content;
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        }
+    .local{
+        margin: auto; 
+        max-width: 200px;
+        max-height: 200px;
+        display: block;
+        }
+    .quienes{
+        font-size: 15px;
+    }  
+    #contacto{
+        color: rgb(217, 219, 221);
+        font-size: 15px;
+        list-style-type: none;
+    }           
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    iframe{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 220px;
+        
+    }
+    .puntos-de-venta{
+        font-size: 15px;
+    }
+    
+    
+}

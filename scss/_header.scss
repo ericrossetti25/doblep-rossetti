@@ -1,0 +1,15 @@
+header div{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background: linear-gradient(90deg, rgba(245,222,4,1) 0%, rgba(209,45,8,0.927608543417367) 100%);
+    justify-content:flex-start;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 32, 32);
+}
+.logo {
+    margin-right: 15px;
+}
