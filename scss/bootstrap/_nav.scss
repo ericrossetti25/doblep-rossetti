@@ -110,7 +110,7 @@
   // scss-docs-end nav-pills-css-vars
 
   .nav-link {
-    background: none;
+    background: red;
     border: 0;
     @include border-radius(var(--#{$prefix}nav-pills-border-radius));
 

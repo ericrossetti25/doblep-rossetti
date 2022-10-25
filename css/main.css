@@ -122,7 +122,7 @@ h3, .h3 {
   font-size: calc(1.3rem + 0.6vw); }
   @media (min-width: 1200px) {
     h3, .h3 {
-      font-size: 0.75rem; } }
+      font-size: 1.75rem; } }
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw); }
@@ -2972,7 +2972,7 @@ textarea.form-control-lg {
   --bs-nav-pills-link-active-color: #fff;
   --bs-nav-pills-link-active-bg: #0d6efd; }
   .nav-pills .nav-link {
-    background: none;
+    background: red;
     border: 0;
     border-radius: var(--bs-nav-pills-border-radius); }
     .nav-pills .nav-link:disabled {
@@ -8386,23 +8386,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: radial-gradient(circle, #2e2e2e 0%, #969698 100%);
-  font-style: italic;
-  font-family: sans-serif;
-  margin: 0; }
-
-#iframe-inicio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 60px; }
-
 img {
   max-width: 100px;
   max-height: 100px; }
@@ -8415,22 +8398,6 @@ img {
   text-align: start;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
-#navegador {
-  background: linear-gradient(90deg, #f5de04 0%, rgba(209, 45, 8, 0.927609) 100%);
-  display: flex;
-  font-weight: 400px;
-  color: #8b2020;
-  padding-right: 15px;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  font-size: 20px;
-  border-style: inset;
-  border-color: aliceblue;
-  border-radius: 15px; }
-
-nav a:hover {
-  color: #0804ff; }
-
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -8438,10 +8405,11 @@ nav a:hover {
   justify-content: space-evenly;
   margin-bottom: 70px; }
 
-h2, .h2 {
-  color: aliceblue;
-  margin: 40px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+.navbar-nav {
+  color: #080808; }
+
+.navbar {
+  --bs-navbar-brand-color: #a30d02; }
 
 .datos {
   color: aliceblue;
@@ -8451,7 +8419,7 @@ h2, .h2 {
 .quienes {
   color: aliceblue;
   margin: 50px;
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify; }
 
 #contacto {
@@ -8459,6 +8427,10 @@ h2, .h2 {
   text-align: center;
   font-size: 25px;
   list-style-type: none; }
+
+.contact {
+  padding: 30px;
+  font-size: 20px; }
 
 #home-footer {
   color: aliceblue;
@@ -8478,7 +8450,9 @@ h2, .h2 {
 
 #redes {
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px; }
 
 header div {
   display: flex;
@@ -8557,7 +8531,9 @@ a {
     display: block;
     margin: 0 auto;
     width: 300px;
-    height: 220px; } }
+    height: 220px; }
+  .puntos-de-venta {
+    font-size: 15px; } }
 
 .local {
   margin: auto;
@@ -8572,12 +8548,12 @@ a {
   text-align: center;
   justify-content: space-evenly;
   margin-top: 40px;
-  font-size: 20px; }
+  font-size: 25px; }
 
 .puntos-de-venta {
   color: #fcf8f9;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   display: block; }
 
 #villa {
@@ -8592,5 +8568,28 @@ a {
   display: block;
   margin: auto; }
 
-.videos {
-  margin-top: 40px; }
+.style, #iframe-inicio {
+  margin-top: 10px; }
+
+#iframe-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px; }
+
+h2, .h2 {
+  color: aliceblue;
+  margin: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+h3, .h3 {
+  font-size: 30px; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #2e2e2e 0%, #969698 100%);
+  font-style: italic;
+  font-family: sans-serif; }

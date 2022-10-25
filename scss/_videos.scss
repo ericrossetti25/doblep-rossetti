@@ -2,3 +2,11 @@
     margin-top: 10px;
     
 }
+#iframe-inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @extend .style;
+    
+    margin-bottom: 60px;
+        }
