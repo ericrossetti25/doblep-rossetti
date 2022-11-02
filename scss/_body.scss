@@ -1,4 +1,9 @@
-img {
+$color-letra: rgb(2, 2, 2);
+main {
+    background-image: url(https://imgs.search.brave.com/oQduSAsnF1GMzAqHhNjnEYpwgGkKLnkUWac6mNxqPZA/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5D/Tjd2RHJCOU1mYkZz/RUFaUnkxNTdRSGFF/NyZwaWQ9QXBp);
+    background-size: cover;
+    }
+.imagen img{
     max-width: 100px;
     max-height: 100px;
     }
@@ -15,12 +20,41 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     }
+.contenedor img{
+    max-width: 150px;
+    max-height: 100px;
+    margin: 5px;
+}    
 .navbar-nav{ 
-    color: rgb(8, 8, 8);
+    color: $color-letra;
     }
 h3{
     font-size: 20px;
+    color: $color-letra;
     }
+.navbar-brand {
+    color: $color-letra;
+    }
+.navbar-brand:hover {
+    color:rgb(211, 97, 4);
+    }
+.navbar-nav a:hover {
+    color:rgb(211, 97, 4); 
+    }
+.dropdown{
+    margin: 30px;
+    }
+.nav-link {
+    color: $color-letra;
+}
+.paginas-videos {
+    color:rgb(139, 32, 32);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+

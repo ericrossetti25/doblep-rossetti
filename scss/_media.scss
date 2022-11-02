@@ -7,13 +7,13 @@
         font-size: 25px;
     }
     .insta{
-        height: 50px;
+        height: 40px;
     }
     .face{
-        height: 50px;
+        height: 40px;
     }
     .whastapp{
-        height: 50px;
+        height: 40px;
     }
     #iframe-inicio{
         margin-top: 0px;
@@ -26,14 +26,16 @@
         flex-direction: wrap;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        }
-    .local{
-        margin: auto; 
+        margin: 5px;
+        
+    }
+    img.local{
+        margin: auto;
+        margin-bottom: 10px; 
         max-width: 200px;
         max-height: 200px;
-        display: block;
+        display: flex;
+        justify-content: center;
         }
     .quienes{
         font-size: 15px;
@@ -43,8 +45,9 @@
         font-size: 15px;
         list-style-type: none;
     }           
-    h3{
-        font-size: 10px;
+    .paginas-videos {
+        color:rgb(139, 32, 32);
+        font-size: 20px;
         text-align: center;
     }
     iframe{
@@ -52,11 +55,22 @@
         margin: 0 auto;
         width: 300px;
         height: 220px;
-        
     }
     .puntos-de-venta{
         font-size: 15px;
     }
-    
+    .logo-inicio img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .contenedor img{
+        max-width: 100px;
+        max-height: 75px;
+        margin: 5px;
+    }
     
 }

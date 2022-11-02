@@ -1,4 +1,4 @@
-$color-letra: aliceblue;
+$color-letra: rgb(0, 0, 0);
 
 .datos {
     color: $color-letra;
@@ -20,8 +20,4 @@ $color-letra: aliceblue;
 .contact{
     padding: 30px;
     font-size: 20px;
-}
-h2{
-    color: $color-letra;
-    text-align: center;
 }

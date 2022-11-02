@@ -1,3 +1,5 @@
+$color-letra: rgb(0, 0, 0);
+
 header div{
     display: flex;
     flex-direction: row;
@@ -6,10 +8,7 @@ header div{
     justify-content:flex-start;
     padding: 15px;
 }
-a{
-    text-decoration: none;
-    color: rgb(139, 32, 32);
-}
+
 .logo {
     margin-right: 15px;
 }

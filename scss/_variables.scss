@@ -1,4 +1,4 @@
-$color-letra: aliceblue;
+$color-letra: rgb(0, 0, 0);
 h2{
     color: $color-letra;
     margin: 40px;
@@ -14,7 +14,6 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: radial-gradient(circle, rgba(46,46,46,1) 0%, rgba(150,150,152,1) 100%);
     font-style: italic;
     font-family: sans-serif;
     }
