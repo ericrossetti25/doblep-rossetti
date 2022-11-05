@@ -8554,7 +8554,7 @@ header div {
   .quienes {
     font-size: 15px; }
   #contacto {
-    color: #d9dbdd;
+    color: #050505;
     font-size: 15px;
     list-style-type: none; }
   .paginas-videos {
@@ -8565,9 +8565,11 @@ header div {
     display: block;
     margin: 0 auto;
     width: 300px;
-    height: 220px; }
+    height: 220px;
+    margin: 15px; }
   .puntos-de-venta {
-    font-size: 15px; }
+    font-size: 15px;
+    margin: 15px; }
   .logo-inicio img {
     max-width: 50px;
     max-height: 50px; }
@@ -8583,7 +8585,8 @@ header div {
   margin: auto;
   max-width: 400px;
   max-height: 400px;
-  display: block; }
+  display: block;
+  margin-bottom: 20px; }
 
 .mapa {
   display: flex;
