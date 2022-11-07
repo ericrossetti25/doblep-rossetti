@@ -2,8 +2,10 @@ $color-letra: rgb(0, 0, 0);
 
 .datos {
     color: $color-letra;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
     align-items: center;
-     text-align: center;
+    text-align: center;
 }
 .quienes {
     color: $color-letra;
@@ -14,10 +16,14 @@ $color-letra: rgb(0, 0, 0);
 #contacto{
     color: hsla(244, 94%, 20%, 0.815);
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     list-style-type: none;
 }
 .contact{
     padding: 30px;
     font-size: 20px;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
